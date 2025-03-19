@@ -39,48 +39,4 @@ class DefaultFirebaseOptions {
         );
     }
   }
-
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyD0H9g_1HA_vAavkJO2W8M0F3IEN7nVrRY',
-    appId: '1:853373536187:web:5cf36118ff0d0d25d9669e',
-    messagingSenderId: '853373536187',
-    projectId: 'flutter-instagram-420f1',
-    authDomain: 'flutter-instagram-420f1.firebaseapp.com',
-    storageBucket: 'flutter-instagram-420f1.firebasestorage.app',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAmttIVJbMzX6V-QVHAr2EOkJofkSIUdYc',
-    appId: '1:853373536187:android:23baecdb4db13051d9669e',
-    messagingSenderId: '853373536187',
-    projectId: 'flutter-instagram-420f1',
-    storageBucket: 'flutter-instagram-420f1.firebasestorage.app',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBAlLINUvvkmLBnyLSKJqpeBuSlv58HNw4',
-    appId: '1:853373536187:ios:b65276d86a6e598cd9669e',
-    messagingSenderId: '853373536187',
-    projectId: 'flutter-instagram-420f1',
-    storageBucket: 'flutter-instagram-420f1.firebasestorage.app',
-    iosBundleId: 'com.example.flutterInstagram',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBAlLINUvvkmLBnyLSKJqpeBuSlv58HNw4',
-    appId: '1:853373536187:ios:b65276d86a6e598cd9669e',
-    messagingSenderId: '853373536187',
-    projectId: 'flutter-instagram-420f1',
-    storageBucket: 'flutter-instagram-420f1.firebasestorage.app',
-    iosBundleId: 'com.example.flutterInstagram',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyD0H9g_1HA_vAavkJO2W8M0F3IEN7nVrRY',
-    appId: '1:853373536187:web:2544e5a04cc515c7d9669e',
-    messagingSenderId: '853373536187',
-    projectId: 'flutter-instagram-420f1',
-    authDomain: 'flutter-instagram-420f1.firebaseapp.com',
-    storageBucket: 'flutter-instagram-420f1.firebasestorage.app',
-  );
 }
